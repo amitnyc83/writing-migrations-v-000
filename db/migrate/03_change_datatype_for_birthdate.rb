@@ -1,4 +1,4 @@
-class ChangeColumTypeFromStringToDateTimeForStudents < ActiveRecord::Migration
+class ChangeColumTypeFromStringToDateTimeForStudents < ActiveRecord::Migration[4.2]
 
 def change
  change_column :students, :birthdate, :integer
